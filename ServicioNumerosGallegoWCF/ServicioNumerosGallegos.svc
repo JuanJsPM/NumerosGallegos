@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ServicioNumerosGallegoWCF.ServicioNumerosGallegos" CodeBehind="ServicioNumerosGallegos.svc.cs" %>

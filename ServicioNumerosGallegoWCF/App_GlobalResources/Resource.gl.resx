@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Adjetivo" xml:space="preserve">
+    <value>Adxectivo</value>
+  </data>
+  <data name="Cardinal" xml:space="preserve">
+    <value>Cardinal</value>
+  </data>
+  <data name="Decimal" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="Expresión con adjetivo" xml:space="preserve">
+    <value>Expresión con adxectivo</value>
+  </data>
+  <data name="Expresión con verbo" xml:space="preserve">
+    <value>Expresión con verbo</value>
+  </data>
+  <data name="Fraccionario" xml:space="preserve">
+    <value>Fraccionario</value>
+  </data>
+  <data name="Multiplicativo" xml:space="preserve">
+    <value>Multiplicativo</value>
+  </data>
+  <data name="NotaCardinal1" xml:space="preserve">
+    <value>Cento, millón, billón, trillón, aínda que expresan número, funcionan como substantivos, igual que ducia, decena, centena.</value>
+  </data>
+  <data name="NotaCardinal2" xml:space="preserve">
+    <value>As formas antigas duzentos e trezentos na lingua moderna foron substi&#x2;tuídas polas máis transparentes douscentos e trescentos.</value>
+  </data>
+  <data name="NotaCardinal3" xml:space="preserve">
+    <value>Só admiten variación de xénero os cardinais rematados en -un -dous e -centos (un/unha, dous/dúas, douscentos/as, trescentos/as, etc.).</value>
+  </data>
+  <data name="NotaCardinal4" xml:space="preserve">
+    <value>Os números maiores que o cuatrillón non están recollidos no dicionario da RAG.</value>
+  </data>
+  <data name="NotaCardinal5" xml:space="preserve">
+    <value>Cando os cardinais son substantivos son sempre masculinos, agás aquelas formas que se refiren ás horas(a unha, as dúas).</value>
+  </data>
+  <data name="NotaFraccionario1" xml:space="preserve">
+    <value>A partir de 1/11 (e exceptuados 1/100, 1/1000,1/1.000.000...) o partitivo faise engadindo ao cardinal o sufixo -avo: (1/16) un dezaseisavo, (2/29) dous vinte e noveavos, (7/345) sete trescentoscorenta e cincoavos.</value>
+  </data>
+  <data name="NotaFraccionario2" xml:space="preserve">
+    <value>Todas estas formas admiten morfemas de xénero e número, que nas formas compostas só se unen ao último elemento (oitavo, -a).</value>
+  </data>
+  <data name="NotaFraccionario3" xml:space="preserve">
+    <value>Xeralmente os fraccionarios femininos son adxectivos e os masculinos substantivos.</value>
+  </data>
+  <data name="NotaMultiplicativo1" xml:space="preserve">
+    <value>A partir de 11 (e exceptuado 100) fórmanse mediante o cardinal correspondente seguido da palabra veces.</value>
+  </data>
+  <data name="NotaMultiplicativo2" xml:space="preserve">
+    <value>Como masculino son sempre substantivos.</value>
+  </data>
+  <data name="NotaMultiplicativo3" xml:space="preserve">
+    <value>Os números do 2 ao 10, e o 100 ten forma feminina</value>
+  </data>
+  <data name="NotaOrdinal1" xml:space="preserve">
+    <value>Todas estas formas admiten morfemas de xénero e número, que nas formas compostas só se unen ao último elemento (décimo primeira).</value>
+  </data>
+  <data name="NotaOrdinal2" xml:space="preserve">
+    <value>Os ordinais 11 e 12 admiten dúas variantes, undécimo e décimo primeiro, duodécimo e décimo segundo.</value>
+  </data>
+  <data name="NotaOrdinal3" xml:space="preserve">
+    <value>Xeralmente son adxectivos, e poden ir antepostos ou pospostos ao substantivo, sendo máis frecuente a súa aparición por diante.</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Ordinal</value>
+  </data>
+  <data name="Pronombre" xml:space="preserve">
+    <value>Pronome</value>
+  </data>
+  <data name="Sintagma nominal" xml:space="preserve">
+    <value>Sintagma nominal</value>
+  </data>
+  <data name="Sustantivo" xml:space="preserve">
+    <value>Substantivo</value>
+  </data>
+  <data name="TitEjemplos" xml:space="preserve">
+    <value>Exemplos</value>
+  </data>
+  <data name="TitNotas" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="TitOpciones" xml:space="preserve">
+    <value>Todas as opcións e funcións</value>
+  </data>
+  <data name="TitOpcionesCardinal1" xml:space="preserve">
+    <value>Substantivo, adxectivo e pronome</value>
+  </data>
+  <data name="TitOpcionesCardinal2" xml:space="preserve">
+    <value>Forma feminina</value>
+  </data>
+  <data name="TitOpcionesFraccionario1" xml:space="preserve">
+    <value>Substantivo masculino</value>
+  </data>
+  <data name="TitOpcionesFraccionario2" xml:space="preserve">
+    <value>Adxectivo e pronome feminino</value>
+  </data>
+  <data name="TitOpcionesMultiplicativo1" xml:space="preserve">
+    <value>Expresión con adxectivo</value>
+  </data>
+  <data name="TitOpcionesMultiplicativo2" xml:space="preserve">
+    <value>Expresión con verbo</value>
+  </data>
+  <data name="TitOpcionesMultiplicativo3" xml:space="preserve">
+    <value>Substantivo masculino e adxectivo</value>
+  </data>
+  <data name="TitOpcionesMultiplicativo4" xml:space="preserve">
+    <value>Verbo</value>
+  </data>
+  <data name="TitOpcionesMultiplicativo5" xml:space="preserve">
+    <value>Forma feminina</value>
+  </data>
+  <data name="TitOpcionesOrdinal1" xml:space="preserve">
+    <value>Adxectivo e Pronome</value>
+  </data>
+  <data name="TitOpcionesOrdinal2" xml:space="preserve">
+    <value>Forma feminina</value>
+  </data>
+  <data name="TitReferencias" xml:space="preserve">
+    <value>Referencias</value>
+  </data>
+  <data name="Verbo" xml:space="preserve">
+    <value>Verbo</value>
+  </data>
+</root>

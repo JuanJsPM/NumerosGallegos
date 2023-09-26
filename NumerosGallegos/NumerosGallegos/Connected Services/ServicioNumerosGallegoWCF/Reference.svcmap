@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="542d6aa6-1294-4fcf-b921-cd6a4f6efe02" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58753/ServicioNumerosGallegos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioNumerosGallegos.wsdl" MetadataType="Wsdl" ID="9227d698-555b-4aba-8021-eb84528acd2f" SourceId="1" SourceUrl="http://localhost:58753/ServicioNumerosGallegos.svc?wsdl" />
+    <MetadataFile FileName="ServicioNumerosGallegos.xsd" MetadataType="Schema" ID="4c5a870e-ef25-4f6d-95b8-6ad302183d14" SourceId="1" SourceUrl="http://localhost:58753/ServicioNumerosGallegos.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioNumerosGallegos1.xsd" MetadataType="Schema" ID="14c5fa90-11da-4b5c-9f3f-e4e81a90865d" SourceId="1" SourceUrl="http://localhost:58753/ServicioNumerosGallegos.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioNumerosGallegos2.xsd" MetadataType="Schema" ID="099aa131-f89d-4eac-a53b-c9318308d3c2" SourceId="1" SourceUrl="http://localhost:58753/ServicioNumerosGallegos.svc?xsd=xsd3" />
+    <MetadataFile FileName="ServicioNumerosGallegos3.xsd" MetadataType="Schema" ID="b0546ab7-005c-473e-b9ce-d6dfabcebbfe" SourceId="1" SourceUrl="http://localhost:58753/ServicioNumerosGallegos.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioNumerosGallegos.disco" MetadataType="Disco" ID="5587b375-fb9c-44fb-8e4b-92cc3b199762" SourceId="1" SourceUrl="http://localhost:58753/ServicioNumerosGallegos.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -150,7 +150,7 @@ namespace NumerosGallegos
             bool TrueCardinalPlano = Regex.IsMatch(resultado, @"^[0-9]*$");
             bool TrueFraccion = Regex.IsMatch(resultado.Replace(".", "").Replace(" ", ""), @"^\d{0,30}\/\d{1,30}$");
             bool Truetamaño = Regex.IsMatch(resultado.Replace(".", "").Replace(" ", ""), @"^[0-9]{1,30}$");
-            bool TrueCardinalSeparadores = Regex.IsMatch(resultado, @"^\d{1,3}\d{1,3}(\.\d{3}|\s\d{3})*");
+            bool TrueCardinalSeparadores = Regex.IsMatch(resultado, @"^\d{1,3}(\.\d{3}|\s\d{3})*");
             bool ContieneLetras = Regex.IsMatch(resultado, @"[a-zA-Z]");
             bool TrueDecimal = Regex.IsMatch(resultado.Replace(".", "").Replace(" ", ""), @"^\d{0,30},\d{1,30}$");
 

@@ -9,7 +9,7 @@ namespace ServicioNumerosGallegoWCF
     public class Cardinal
     {
         protected static string[] UNIDAD = { "cero", "un", "dous", "tres", "catro", "cinco", "sies", "sete", "oito", "nove", };
-        protected static string[] UNICOS = { "dez", "once", "doce", "trece", "catorce", "quince", "dezaseis", "dezasete", "dezoito", "dezanove" };
+        protected static string[] UNICOS = { "dez", "once", "doce", "trece", "catorce", "quince", "dezaseis", "dezasete", "dezaoito", "dezanove" };
         protected static string[] DECENA = { "", "dez", "vinte", "trinta", "corenta", "cincuenta", "sesenta", "setenta", "oitenta", "noventa" };
         protected static string[] CENTENA = { "", "cento", "douscentos", "trescentos", "catrocentos", "cincocentos", "seiscentos", "setecentos", "oitocentos", "novecentos" };
         protected static string[] SINGULARM = { "", "mil", "millóns", "mil millóns", "billóns", "mil billóns", "trillóns", "mil trillóns", "cuadrillóns", "mil cuadrillóns" };

@@ -11,12 +11,12 @@ namespace ServicioNumerosGallegoWCF
         protected static string[] UNIDAD = { "", "primeiro", "segundo", "terceiro", "cuarto", "quinto", "sexto", "sétimo", "oitavo", "noveno", };
         protected static string[] DECENA = { "", "décimo", "vixésimo", "trixésimo", "cuadraxésimo", "quincuaxésimo", "sesaxésimo", "septuaxésimo", "octoxésimo", "nonaxésimo" };
         protected static string[] CENTENA = { "", "centésimo", "ducentésimo", "tricentésimo", "cuadrinxentésimo", "quinxentésimo", "sexcentésimo", "septinxentésimo", "octinxentésimo", "noninxentésimo" };
-        protected static string[] SINGULARMF = { "", "milésimo", "millonésimo", "mil millonésimo", "billónésimo", "mil billónésimo", "trillónésimo", "mil trillónésimo", "cuadrillónésimo", "mil cuadrillónésimo" };
+        protected static string[] SINGULARMF = { "", "milésimo", "millonésimo", "mil millonésimo", "billonésimo", "mil billonésimo", "trillonésimo", "mil trillonésimo", "cuadrillonésimo", "mil cuadrillonésimo" };
         protected static string[] SINGULARM = { "", "mil", "millóns", "mil millóns", "billóns", "mil billóns", "trillóns", "mil trillóns", "cuadrillóns", "mil cuadrillóns" };
        
 
         protected static string[] UNIDADcar = { "cero", "un", "dous", "tres", "catro", "cinco", "sies", "sete", "oito", "nove", };
-        protected static string[] UNICOScar = { "dez", "once", "doce", "trece", "catorce", "quince", "dezaseis", "dezasete", "dezoito", "dezanove" };
+        protected static string[] UNICOScar = { "dez", "once", "doce", "trece", "catorce", "quince", "dezaseis", "dezasete", "dezaoito", "dezanove" };
         protected static string[] DECENAcar = { "", "dez", "vinte", "trinta", "corenta", "cincuenta", "sesenta", "setenta", "oitenta", "noventa" };
         protected static string[] CENTENAcar = { "", "cento", "douscentos", "trescentos", "catrocentos", "cincocentos", "seiscentos", "setecentos", "oitocentos", "novecentos" };
         public int count = 0;

@@ -161,9 +161,10 @@ p label {
     border-bottom-style: solid;
     border-bottom-color: rgba(0, 0, 0, 0.125);
     border-radius: .25rem;
-    flex-grow: 1; 
+    flex-grow: 1;
     margin-bottom: 70px;
     margin-top: 10px;
+    margin-left: 3px;
 }
 
 .InicioTarjeta {
@@ -222,12 +223,22 @@ body {
     color: #fff !important;
     padding-right: 10px;
 }
+#dividiomascontainer {
+    margin-bottom: 10px;
+    width: 95%;
+}
 @media (max-width: 767px) {
     .tarjetaIdiomas {
         background-image: none !important;
     }
     .popup-container{
         min-width: 75%;
+    }
+    .tarjetaF {
+        margin-left: 1px;
+    }
+    #dividiomascontainer {
+        width: 85%;
     }
 }
 

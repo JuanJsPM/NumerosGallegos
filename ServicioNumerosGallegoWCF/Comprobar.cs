@@ -14,13 +14,13 @@ namespace ServicioNumerosGallegoWCF
         public bool ComprobarFormatoNormal(string input)
         {
             bool TrueCardinalSeparadores = Regex.IsMatch(input, @"\d{1,3}\d{1,3}(\.\d{3}|\s\d{3})*"); //separadores "." y " "
-            bool TrueCardinalPlano = Regex.IsMatch(input, @"^[+-]?[0-9]*$");
+            bool TrueCardinalPlano = Regex.IsMatch(input, @"^[0-9]*$");
 
             if (TrueCardinalSeparadores || TrueCardinalPlano)
             {
                 return CardinalValido(input.Replace(".", "").Replace(" ", ""));
             } 
-            return false;
+            return false;   
         }
 
         public bool ComprobarFormatoFraccionario(string input)

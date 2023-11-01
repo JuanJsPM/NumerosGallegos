@@ -4,7 +4,7 @@
     <main style="flex-grow: 1;">
         <section class="row" aria-labelledby="aspnetTitle">
             <div class="tarjetaIdiomas">
-                <div  style="margin-bottom:10px; width:95%">
+                <div id="dividiomascontainer" >
                     <div class="divIdiomaImg" onclick="ChangeLanguage('es');" style="cursor: pointer;" >
                         <div class="DivImg"  style="float: left;width: 30px;margin-right: 5px;margin-left: 5px;">
                             <img src="/iconos/spanish.png" alt="Español" />

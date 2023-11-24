@@ -1,4 +1,4 @@
-﻿
+﻿    
 .tarjetasContainer {
     display: flex;
     flex-direction: column; 
@@ -204,7 +204,7 @@ p label {
     text-align: left;
     width: 100%;
     height: 100px;
-    background-image: url('../iconos/logo_ulpgc.png');
+    background-image: url('iconos/logo_ulpgc.png');
     background-repeat: no-repeat;
     background-position-y: center;
     padding-top: 30px;
@@ -238,10 +238,15 @@ body {
         margin-left: 1px;
     }
     #dividiomascontainer {
-        width: 85%;
+        width: auto;
+        
+    }
+    .tarjetaIdiomas {
+        width: auto;
     }
 }
 
-li{
+
+li {
     margin-bottom: 10px;
 }

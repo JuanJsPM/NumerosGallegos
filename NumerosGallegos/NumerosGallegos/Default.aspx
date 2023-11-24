@@ -1,13 +1,13 @@
-﻿    <%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="NumerosGallegos._Default" %>
+﻿    <%@ Page Title="Números Gallegos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="NumerosGallegos._Default" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="StyleSheet1.css" rel="stylesheet">
+    <link href="StyleSheet1.css" rel="stylesheet" />
     <main style="flex-grow: 1;">
         <section class="row" aria-labelledby="aspnetTitle">
             <div class="tarjetaIdiomas">
                 <div id="dividiomascontainer" >
                     <div class="divIdiomaImg" onclick="ChangeLanguage('es');" style="cursor: pointer;" >
                         <div class="DivImg"  style="float: left;width: 30px;margin-right: 5px;margin-left: 5px;">
-                            <img src="/iconos/spanish.png" alt="Español" />
+                            <img src="iconos/spanish.png" alt="Español" />
                         </div>
                         <div  style="float: left;">
                             <asp:Label ID="LabelEs"  Text="Español"  runat="server" />
@@ -16,16 +16,16 @@
                     </div>
                     <div class="divIdiomaImg" style="cursor: pointer;" onclick="ChangeLanguage('en');">
                         <div class="DivImg"  style="float: left;width: 30px;margin-right: 5px;margin-left: 5px;">
-                            <img src="/iconos/english.png" alt="English" />
+                            <img src="iconos/english.png" alt="English" />
                         </div>
                         <div  style="float: left;">
                             <asp:Label ID="LabelEn"  Text="English"  runat="server" />
                         </div>
                         
                     </div>
-                    <div class="divIdiomaImg" style="padding-bottom: 6px;cursor: pointer;" onclick="ChangeLanguage('gl');">
+                    <div class="divIdiomaImg" id="primeraImagenIdioma" style="padding-bottom: 6px;cursor: pointer;" onclick="ChangeLanguage('gl');">
                         <div class="DivImg"  style="float: left;width: 30px;margin-right: 5px;margin-left: 5px;">
-                             <img src="/iconos/galego.png" alt="Galego" />
+                             <img src="iconos/galego.png" alt="Galego" />
                         </div>
                         <div  style="float: left;">
                             <asp:Label ID="LabelGl"  Text="Galego"  runat="server" />
@@ -81,10 +81,10 @@
 
            if (divContenedor.style.display === "none") {
                divContenedor.style.display = "block";
-               imgElement.src = "/iconos/icono_flechaArriba.png"; 
+               imgElement.src = "iconos/icono_flechaArriba.png"; 
            } else {
                divContenedor.style.display = "none";
-               imgElement.src = "/iconos/icono_flechaAbajo.png"; 
+               imgElement.src = "iconos/icono_flechaAbajo.png"; 
            }
        }
        var popupAbierto = false;
@@ -106,7 +106,7 @@
 
            var closeButton = document.createElement('img');
 
-           closeButton.src = '/iconos/cerrar.png'; 
+           closeButton.src = 'iconos/cerrar.png'; 
            closeButton.className = 'popup-close';
            
 

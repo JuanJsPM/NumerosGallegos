@@ -194,7 +194,7 @@ namespace NumerosGallegos
 
 
                             Image imgCopiar = new Image();
-                            imgCopiar.ImageUrl = "/iconos/icono_copiar.png";
+                            imgCopiar.ImageUrl = "iconos/icono_copiar.png";
                             imgCopiar.Attributes["onclick"] = $"navigator.clipboard.writeText('{HttpUtility.JavaScriptStringEncode(conversion.Respuestas[0])}');";   
                             imgCopiar.Attributes["style"] = "cursor: pointer ;";
 
@@ -207,7 +207,7 @@ namespace NumerosGallegos
 
                             Image imgMostrarOcultar = new Image();
                             imgMostrarOcultar.ID = "imgMostrarOcultar_" + contador;
-                            imgMostrarOcultar.ImageUrl = "/iconos/icono_flechaAbajo.png";
+                            imgMostrarOcultar.ImageUrl = "iconos/icono_flechaAbajo.png";
                             divimg2.Attributes["style"] = "float:right;";
                             imgMostrarOcultar.Attributes["style"] = "cursor: pointer ;";
                             imgMostrarOcultar.Attributes["onclick"] = $"mostrarOcultarDivContenedor('divContenedor_{contador}', 'imgMostrarOcultar_{contador}')";
@@ -221,7 +221,7 @@ namespace NumerosGallegos
 
                             Image imgNotas = new Image();
                             imgNotas.ID = "imgNotas" + contador;
-                            imgNotas.ImageUrl = "/iconos/notas.png";
+                            imgNotas.ImageUrl = "iconos/notas.png";
                             divimg4.Attributes["style"] = "float:right;";
                             imgNotas.Attributes["style"] = "cursor: pointer ;";
                             imgNotas.Attributes["onclick"] = "mostrarDivEmergente([" + string.Join(",", conversion.Notas.Select(r => "'" + r + "'")) + "], '" + conversion.TitNotas + "'); return false;";
@@ -230,7 +230,7 @@ namespace NumerosGallegos
 
                             Image imgReferencias = new Image();
                             imgReferencias.ID = "imgReferencias" + contador;
-                            imgReferencias.ImageUrl = "/iconos/referencia.png";
+                            imgReferencias.ImageUrl = "iconos/referencia.png";
                             divimg3.Attributes["style"] = "float:right;";
                             imgReferencias.Attributes["style"] = "cursor: pointer ;";
                             imgReferencias.Attributes["onclick"] = "mostrarDivEmergente([" + string.Join(",", conversion.Referencias.Select(r => "'" + r + "'")) + "], '" + conversion.TitReferencias + "'); return false;";

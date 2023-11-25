@@ -246,7 +246,13 @@ body {
     }
 }
 
-
-li {
-    margin-bottom: 10px;
+@media (max-width: 410px) {
+    .divIdiomaImg {
+        margin-left: 5px;
+    }
 }
+
+
+    li {
+        margin-bottom: 10px;
+    }

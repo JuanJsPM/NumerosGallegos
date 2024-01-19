@@ -7,4 +7,5 @@ Este proyecto se centra en desarrollar una aplicación web que permita convertir
 - Ejemplos ilustrativos para comprensión.
 - Interfaz web intuitiva y accesible.
 
-Servicio en funcionamiento en: https://appstip.iatext.ulpgc.es/numerosgallego/
+
+
